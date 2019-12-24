@@ -20,7 +20,14 @@ class MyButton extends StatelessWidget {
           color: Colors.lightBlue,
         ),
         child: Center(
-          child: Text("GestureDetector center button"),
+          child: Text(
+            "GestureDetector center button",
+            style: TextStyle(
+              color: Colors.red,
+              fontSize: 25.0,
+              decoration: TextDecoration.none,
+            ),
+          ),
         ),
       ),
     );
