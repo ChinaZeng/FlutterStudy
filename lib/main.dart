@@ -3,6 +3,7 @@ import 'package:flutter_study/study01/basic01.dart';
 import 'package:flutter_study/study01/basic02.dart';
 import 'package:flutter_study/study01/basic03.dart';
 import 'package:flutter_study/study01/basic04.dart';
+import 'package:flutter_study/study01/basic05.dart';
 
 
 void main() => runApp(MyApp());
@@ -19,7 +20,9 @@ class MyApp extends StatelessWidget {
       //basic03  处理基本的手势操作
 //      home: MyButton(),
       //basic 04 处理基本的状态改变
-      home: Counter(),
+//      home: Counter(),
+      //basic 05 处理稍微复杂的状态改变
+    home: Counter05(),
     );
   }
 }
