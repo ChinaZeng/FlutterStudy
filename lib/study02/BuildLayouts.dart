@@ -66,7 +66,7 @@ class MyApp extends StatelessWidget {
   );
 
 //文字
-  Widget textSection = Container(
+  Widget textSection = Padding(
     padding: const EdgeInsets.all(32),
     child: Text(
       'Lake Oeschinen lies at the foot of the Blüemlisalp in the Bernese '
