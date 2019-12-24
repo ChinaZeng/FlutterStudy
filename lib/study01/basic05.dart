@@ -33,17 +33,37 @@ class CounterIncrementor extends StatelessWidget {
 }
 
 class Counter05 extends StatefulWidget {
-  State<StatefulWidget> createState() => _CounterState05();
+  _CounterState05 createState() => _CounterState05();
 }
 
 class _CounterState05 extends State {
   int _count = 0;
+
+  //调用一次
+  @override
+  void initState() {
+    print("_CounterState05 initState");
+    super.initState();
+  }
+
+  @override
+  void dispose() {
+    print("_CounterState05 dispose");
+    super.dispose();
+  }
+
+  @override
+  void setState(VoidCallback fn) {
+    print("_CounterState05 setState");
+    super.setState(fn);
+  }
 
   void _onPressed() {
     setState(() {
       _count++;
     });
   }
+
 
   @override
   Widget build(BuildContext context) {
