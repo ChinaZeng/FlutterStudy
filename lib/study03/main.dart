@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_study/study03/StudyWidget.dart';
 
+//为第二个学习教程添加交互
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
